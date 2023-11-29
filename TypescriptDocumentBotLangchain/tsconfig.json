@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "CommonJS",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "esModuleInterop": true,
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/*.html",  // Include HTML files here
+        "src/**/*.css"    // Include CSS files or other assets if needed
+    ]
+}
