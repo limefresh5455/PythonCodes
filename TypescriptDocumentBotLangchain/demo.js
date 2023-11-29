@@ -38,7 +38,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var openai_1 = require("openai");
 var openai = new openai_1.default({
-    apiKey: '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', // defaults to process.env["OPENAI_API_KEY"]
+    apiKey: 'nokey', // defaults to process.env["OPENAI_API_KEY"]
 });
 function main() {
     return __awaiter(this, void 0, void 0, function () {
